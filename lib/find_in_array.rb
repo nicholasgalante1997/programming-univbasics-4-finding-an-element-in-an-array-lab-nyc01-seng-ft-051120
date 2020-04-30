@@ -7,6 +7,7 @@ def find_element_index(array, value_to_find)
      break if array[index] == value_to_find
      index += 1 
      return found_value_index
+   end 
      else return found_value_index
     end
     return found_value_index
