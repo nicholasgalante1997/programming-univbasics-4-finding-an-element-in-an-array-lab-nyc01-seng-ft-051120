@@ -6,7 +6,8 @@ def find_element_index(array, value_to_find)
      break if array[index] == value_to_find
      p int 
      index += 1 
-   else 
+    end
+  else 
      return nil 
    end 
 end
